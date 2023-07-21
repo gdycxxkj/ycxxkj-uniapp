@@ -1,0 +1,29 @@
+{
+  "name": "ycxxkj_uniapp",
+  "version": "1.0.0",
+  "description": "ycxxkj uniapp libs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register  test/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ssl.ycxxkj.com:38091/yckj/ycxxkj_ts_uni"
+  },
+  "keywords": [
+    "uniapp"
+  ],
+  "author": "ycxxkj",
+  "license": "ISC",
+  "devDependencies": {
+    "@dcloudio/types": "^3.3.3",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0"
+  }
+}
