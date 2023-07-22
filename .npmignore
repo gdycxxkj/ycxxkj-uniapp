@@ -1,3 +1,5 @@
 node_modules/
 test/
 *.lock
+发布教程.md
+test2.ts

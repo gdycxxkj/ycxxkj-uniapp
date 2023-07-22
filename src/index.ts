@@ -1,0 +1,17 @@
+// import Base64Heler from "./libs/Base64";
+// import RegHelper from "./libs/Reg";
+// import StorageHelper from "./libs/Storage";
+// import StringUtilHelper from "./libs/StringUtil";
+// import UniHelper from "./libs/UniHelper";
+// export const Base64=Base64Heler;
+// export const Reg = RegHelper;
+// export const Storage = StorageHelper;
+// export const StringUtil = StringUtilHelper;
+// export const Uniapp = UniHelper;
+import YcBase64 from "./libs/Base64";
+import YcReg from "./libs/Reg";
+import YcStorage from "./libs/Storage";
+import YcStringUtil from "./libs/StringUtil";
+import YcUniapp from "./libs/UniHelper";
+import Yc from "./libs/Yc";
+export { YcBase64, YcReg, YcStorage, YcStringUtil, YcUniapp, Yc };

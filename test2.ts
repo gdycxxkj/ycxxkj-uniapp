@@ -1,5 +1,5 @@
 
-import { Storage, Reg } from './index';
+import { Storage, Reg } from './src/index';
 // import Storage from "./libs/Storage";
 // const Storage=require("./libs/Storage");
 // const result = Storage.getPrifix();

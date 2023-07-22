@@ -2,7 +2,7 @@
   "name": "@ycxxkj/uniapp",
   "version": "1.0.0",
   "description": "ycxxkj uniapp libs",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register  test/test.ts"
   },
