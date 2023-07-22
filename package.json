@@ -2,13 +2,16 @@
   "name": "@ycxxkj/uniapp",
   "version": "1.0.2",
   "description": "ycxxkj uniapp libs",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register  test/test.ts"
+    "prepublish": "npm run build",
+    "test": "mocha --reporter spec",
+    "build": "npm version patch && tsc"
   },
   "repository": {
     "type": "git",
-    "url": "http://ssl.ycxxkj.com:38091/yckj/ycxxkj_ts_uni"
+    "url": "https://github.com/sgsycxxkj/ycxxkj-uniapp"
   },
   "keywords": [
     "uniapp"
