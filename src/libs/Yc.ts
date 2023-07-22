@@ -1,7 +1,8 @@
-import configs from '../package.json'
+
 const Yc = {
     getVersion() {
-        return configs.version;
+        return "1.0.2";
+        
     }
 };
 export default Yc;
