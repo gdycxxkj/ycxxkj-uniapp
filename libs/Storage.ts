@@ -10,9 +10,10 @@ let randomString = (len: number) => {
 	return pwd;
 }
 const Storage = {
-	getPrifix(): string {
+	getPrifix(len:number=2): string {
 		if (!prifix ) {
-			prifix = uni.getStorageSync("prifix") || randomString(2)+"_";
+			prifix = uni.getStorageSync("prifix") || randomString(len) + "_";
+			uni.setStorageSync("prifix", prifix);
 		}
 		return prifix;
 	},
